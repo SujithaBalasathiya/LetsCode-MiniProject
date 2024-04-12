@@ -12,7 +12,7 @@ public class WriteTextFile {
 			filewrite.close();
 			System.out.println("Text file write completed successfully");
 		} catch (IOException e) {
-			System.out.println("Failed due to exception");
+			System.out.println("Failed due to error");
 			e.printStackTrace();
 		}
 

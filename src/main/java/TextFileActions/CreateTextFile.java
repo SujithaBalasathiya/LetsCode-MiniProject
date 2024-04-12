@@ -14,8 +14,9 @@ public class CreateTextFile {
 			} else {
 				System.out.println("File already created");
 			} 
+		
 		} catch (IOException e) {
-			System.out.println("Failed due to exception");
+			System.out.println("Failed due to error");
 			e.printStackTrace();
 		}
 
