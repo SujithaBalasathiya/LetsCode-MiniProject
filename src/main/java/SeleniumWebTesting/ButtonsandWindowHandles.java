@@ -1,4 +1,4 @@
-package SeleniumWebTresting;
+package SeleniumWebTesting;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
@@ -24,5 +24,6 @@ public class ButtonsandWindowHandles {
 		System.out.println("BtnDimensionwithsize :" + BtnDimensionwithsize);
 		Boolean IsEnabled = driver.findElement(By.id("isDisabled")).isEnabled();
 		System.out.println("Is Button Enabled :"+IsEnabled);
+		
 	}
 }
